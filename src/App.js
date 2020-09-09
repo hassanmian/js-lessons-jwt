@@ -1,5 +1,18 @@
 import React, { useState, useEffect } from 'react';
 
+/*
+ROOT URL
+http://yoshi.willandskill.eu:8999/api/v1/
+
+LOGIN URL
+auth/api-token-auth/
+
+EVENT LIST URL
+events/events/
+
+EVENT PAGES URL
+cms/${event_slug}/pages
+*/
 
 function App() {
   const ROOT_URL = "http://yoshi.willandskill.eu:8999/api/v1/"
